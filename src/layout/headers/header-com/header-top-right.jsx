@@ -17,13 +17,13 @@ function Language({active,handleActive}) {
       </span>
       <ul className={active === 'lang' ? "tp-lang-list-open" : ""}>
         <li>
-          <a href="#">Spanish</a>
+          <a href="#">Kiswahili</a>
         </li>
         <li>
-          <a href="#">Russian</a>
+          <a href="#">English</a>
         </li>
         <li>
-          <a href="#">Portuguese</a>
+          <a href="#">Arabic</a>
         </li>
       </ul>
     </div>
@@ -39,20 +39,20 @@ function Currency({active,handleActive}) {
         className="tp-header-currency-toggle"
         id="tp-header-currency-toggle"
       >
-        USD
+        KSH
       </span>
       <ul className={active === 'currency' ? "tp-currency-list-open" : ""}>
         <li>
           <a href="#">EUR</a>
         </li>
         <li>
-          <a href="#">CHF</a>
+          <a href="#">ZAR</a>
         </li>
         <li>
           <a href="#">GBP</a>
         </li>
         <li>
-          <a href="#">KWD</a>
+          <a href="#">USD</a>
         </li>
       </ul>
     </div>

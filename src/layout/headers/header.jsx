@@ -36,7 +36,7 @@ const Header = () => {
                     <span>
                       <ShippingCar />
                     </span>
-                    <p>FREE Express Shipping On Orders $570+</p>
+                    <p>FREE Express Shipping On Orders Ksh570+</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -111,7 +111,7 @@ const Header = () => {
                       <div className="tp-header-contact-content">
                         <h5>Hotline:</h5>
                         <p>
-                          <a href="tel:966-595-035-008">+(966) 595 035 008</a>
+                          <a href="tel:254-713-905-761">+(254) 713 905 761</a>
                         </p>
                       </div>
                     </div>
